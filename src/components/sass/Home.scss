@@ -1,0 +1,17 @@
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 370px) {
+  body {
+    background-image: url("../assets/home/background-home-mobile.jpg");
+  }
+}
+
+@media (min-width: 371px) and (max-width: 700px) {
+  body {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+}
