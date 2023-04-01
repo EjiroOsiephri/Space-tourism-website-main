@@ -1,8 +1,48 @@
+html,
 body {
   background-image: url("../assets/home/background-home-desktop.jpg");
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.navbar img {
+  padding-top: 1em;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container h1 {
+  margin: 0.5em 1em;
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+}
+.flex-container a {
+  text-decoration: none;
+}
+span {
+  margin: 0 0.5em;
+  color: gray;
+}
+.flex-container {
+  padding: 1.2em;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+}
+.border-style {
+  border-bottom: 2px solid white;
+  padding-bottom: 1em;
+  width: 80%;
 }
 @media (max-width: 370px) {
   body {
