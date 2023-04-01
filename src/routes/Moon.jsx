@@ -20,11 +20,21 @@ const Moon = () => {
                     <h1><span>01</span> Pick your Destination</h1>
                     <img src={imgmoon} alt="img-europa" />
                 </div>
-                <div className={Styled['second-container']}>
-                    <Link to='/moon'><h1>Moon</h1></Link>
-                    <Link to='/mars'><h1>Mars</h1></Link>
-                    <Link><h1>Europa</h1></Link>
-                    <Link><h1>Titan</h1></Link>
+                <div className={Styled["second-details-moon-container"]}>
+                    <div className="links">
+                        <Link to='/moon'>Moon</Link>
+                        <Link to='/mars'>Mars</Link>
+                        <Link to='/europa'>Europa</Link>
+                        <Link to='/titan'>Titan</Link>
+                    </div>
+                    <div className={Styled.typography}>
+                        <h1>Moon</h1>
+                        <h4>{ctx.imgMoonText}</h4>
+                    </div>
+                    <hr />
+                    <div className="flex-container">
+
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,9 +1,5 @@
-html,
 body {
   background-image: url("../assets/home/background-home-desktop.jpg");
-  object-fit: cover;
-  object-position: center;
-  background-repeat: no-repeat;
   font-family: "Barlow Condensed", sans-serif;
 }
 .navbar {
@@ -53,6 +49,7 @@ span {
 @media (max-width: 670px) {
   body {
     background-image: url("../assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
   }
   .flex-container {
     background: none;

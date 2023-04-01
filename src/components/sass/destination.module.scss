@@ -5,23 +5,40 @@
 }
 a {
   text-decoration: none;
-  color: white;
   font-family: "Barlow Condensed";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  margin-right: 1em;
+  font-size: 25px;
   line-height: 19px;
+  text-transform: uppercase;
   letter-spacing: 2.7px;
+
+  color: #d0d6f9;
 }
 .first-container-details h1 {
   color: white;
 }
 .first-container-details img {
   max-width: 70%;
+  margin: 1em 0;
 }
-.second-container {
-  display: flex;
+
+.typography h1 {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 115px;
+  color: #ffffff;
 }
-.second-container a {
-  margin: 0 1em;
+.typography h4 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  max-width: 420px;
 }
