@@ -6,9 +6,13 @@ import { FaTimes, FaBars } from 'react-icons/fa';
 
 const NavBar = (props) => {
     const [click, setClick] = useState(false)
+    const [className, setClassName] = useState('border-style')
 
     function clickHandler() {
         setClick(!click);
+    }
+    if (props.number === 1) {
+
     }
 
     return (
@@ -19,8 +23,8 @@ const NavBar = (props) => {
                 </div>
                 <div className="grid">
                     <div className="flex-container">
-                        <Link to="/"><h1 className='border-style'><span>00</span>Home</h1></Link>
-                        <Link to="/destination"><h1><span>01</span>Destination</h1></Link>
+                        <Link to="/"><h1 className={props.number === 1 ? 'border-style' : ''}><span>00</span>Home</h1></Link>
+                        <Link to="/destination"><h1 className={props.number === 2 ? 'border-style' : ''}><span>00</span>Destination</h1></Link>
                         <Link to="/crew"><h1><span>02</span>Crew</h1></Link>
                         <Link to="/technology"><h1><span>03</span>Technology</h1></Link>
                     </div>
