@@ -9,7 +9,7 @@ const Destination = () => {
         <div>
             <div className="container">
                 <h1>Pick your Destination</h1>
-                <img src='../components/assets/destination/image-europa.png' alt="" />
+                <img src={imgEuropa} alt="img-europa" />
             </div>
         </div>
     )
