@@ -10,7 +10,10 @@ import AuthContext from './components/AuthContext/AuthContext'
 function App() {
     return (
         <AuthContext.Provider value={{
-            img: 'image-europa.png',
+            imgEuropa: 'image-europa.png',
+            imgMoon: 'image-moon.png',
+            imgMars: 'image-mars.png',
+            imgTitan: 'image-titan.png',
         }}>
             <Routes>
                 <Route path='/' element={<Home />} />
