@@ -30,18 +30,18 @@ const Mars = () => {
                         <Link to='/titan'>Titan</Link>
                     </div>
                     <div className={Styled.typography}>
-                        <h1>Moon</h1>
-                        <h4>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</h4>
+                        <h1>Mars</h1>
+                        <h4>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</h4>
                     </div>
                     <hr />
                     <div className={Styled["flex-container"]}>
                         <div className={Styled["first-flex-container"]}>
                             <h5>AVG. DISTANCE</h5>
-                            <h3>384,400 km</h3>
+                            <h3>225 MIL. km</h3>
                         </div>
                         <div className={Styled["second-flex-container"]}>
                             <h5>EST. TRAVEL TIME</h5>
-                            <h3>3 days</h3>
+                            <h3>9 months</h3>
                         </div>
                     </div>
                 </div>
