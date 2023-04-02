@@ -6,8 +6,13 @@ import { FaTimes, FaBars } from 'react-icons/fa';
 
 const NavBar = (props) => {
     const [show, setShow] = useState(false)
+
     function showNav() {
-        setShow(prevShow => !prevShow)
+        setShow(true)
+    }
+
+    function hideNav() {
+        setShow(false)
     }
     return (
         <div>
@@ -18,7 +23,7 @@ const NavBar = (props) => {
                 <div className="grid">
                     <div className="bars">
                         {!show && <FaBars onClick={showNav} />}
-                        {show && <FaTimes></FaTimes>}
+                        {show && <FaTimes onClick={hideNav}></FaTimes>}
                     </div>
                     <div className={show ? "flex-container" : "flex-container show"}>
                         <Link to="/"><h1 className={props.number === 1 ? 'border-style' : ''}><span>00</span>Home</h1></Link>

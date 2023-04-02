@@ -15,6 +15,10 @@ body {
   position: relative;
   z-index: 10;
 }
+.grid {
+  position: relative;
+  z-index: 10;
+}
 .flex-container h1 {
   margin: 0.5em 1em;
   color: white;
@@ -47,6 +51,18 @@ span {
 }
 .flex-container.show {
   display: flex;
+}
+img {
+  animation: myFirst 4.5s infinite linear;
+}
+
+@keyframes myFirst {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 @media (max-width: 670px) {
