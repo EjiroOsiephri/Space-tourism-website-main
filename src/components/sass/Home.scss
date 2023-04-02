@@ -1,11 +1,11 @@
 body {
-  background-image: url("../assets/home/background-home-desktop.jpg");
   font-family: "Barlow Condensed", sans-serif;
 }
 .navbar {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin-bottom: 3em;
 }
 .navbar img {
   padding-top: 1em;
@@ -47,10 +47,6 @@ span {
 }
 
 @media (max-width: 670px) {
-  body {
-    background-image: url("../assets/home/background-home-mobile.jpg");
-    background-repeat: no-repeat;
-  }
   .flex-container {
     background: none;
     flex-direction: column;
@@ -63,11 +59,5 @@ span {
     color: white;
     font-size: 24px;
     display: initial;
-  }
-}
-
-@media (min-width: 371px) and (max-width: 700px) {
-  body {
-    background-image: url("../assets/home/background-home-tablet.jpg");
   }
 }

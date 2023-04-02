@@ -4,7 +4,7 @@ import Styled from '../components/sass/home.module.scss'
 
 const Home = () => {
     return (
-        <div>
+        <div className={Styled.home}>
             <NavBar number={1} />
             <div className={Styled["home-container"]}>
                 <div className={Styled.firstContainer}>
