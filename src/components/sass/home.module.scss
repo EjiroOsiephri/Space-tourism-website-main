@@ -72,6 +72,13 @@ button {
   border-radius: 50%;
   border: none;
 }
+button:hover {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  color: Marine-blue;
+  font-weight: 800;
+}
 
 @media (min-width: 670px) {
   .home {
