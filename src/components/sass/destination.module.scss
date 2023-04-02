@@ -30,7 +30,7 @@ a {
 .first-container-details img {
   max-width: 78%;
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-left: 1em;
 }
 
 .typography h1 {
@@ -89,7 +89,7 @@ a {
   .all {
     background-image: url("../assets/destination/background-destination-mobile.jpg");
     background-size: cover;
-    height: 1300px;
+    height: 1400px;
     background-repeat: no-repeat;
   }
   .Container {
@@ -127,6 +127,9 @@ a {
   .first-container-details img {
     margin-top: 2em;
     margin-bottom: 4em;
+  }
+  .typography h1 {
+    font-size: 58px;
   }
 }
 @media (min-width: 670px) {

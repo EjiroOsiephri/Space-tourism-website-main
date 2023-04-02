@@ -6,8 +6,6 @@ import { FaTimes, FaBars } from 'react-icons/fa';
 
 const NavBar = (props) => {
 
-
-
     return (
         <div>
             <div className="navbar">
