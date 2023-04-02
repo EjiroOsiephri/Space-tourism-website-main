@@ -15,7 +15,6 @@ const NavBar = (props) => {
                     <img src={Logo} alt="" />
                 </div>
                 <div className="grid">
-                    <FaBars></FaBars>
                     <div className="flex-container">
                         <Link to="/"><h1 className={props.number === 1 ? 'border-style' : ''}><span>00</span>Home</h1></Link>
                         <Link to="/destination"><h1 className={props.number === 2 ? 'border-style' : ''}><span>01</span>Destination</h1></Link>
