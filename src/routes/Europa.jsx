@@ -19,7 +19,7 @@ const Europa = () => {
                 <div className={Styled["first-container-details"]}>
                     <h1><span>01</span> Pick your Destination</h1>
                     <div className={Styled.img}>
-                        <img src={imgmars} alt="img-europa" />
+                        <img src={imgEuropa} alt="img-europa" />
                     </div>
                 </div>
                 <div className={Styled["second-details-moon-container"]}>
@@ -37,11 +37,11 @@ const Europa = () => {
                     <div className={Styled["flex-container"]}>
                         <div className={Styled["first-flex-container"]}>
                             <h5>AVG. DISTANCE</h5>
-                            <h3>225 MIL. km</h3>
+                            <h3>628 MIL. km</h3>
                         </div>
                         <div className={Styled["second-flex-container"]}>
                             <h5>EST. TRAVEL TIME</h5>
-                            <h3>9 months</h3>
+                            <h3>3 years</h3>
                         </div>
                     </div>
                 </div>
