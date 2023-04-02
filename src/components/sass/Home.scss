@@ -45,11 +45,24 @@ span {
 .Bars {
   display: none;
 }
+.flex-container.show {
+  display: flex;
+}
 
 @media (max-width: 670px) {
   .flex-container {
     background: none;
     flex-direction: column;
+  }
+  .flex-container.show {
+    display: none;
+  }
+  .bars {
+    color: white;
+    margin-top: 30px;
+    font-size: 22px;
+    width: 20%;
+    margin-left: auto;
   }
   .line {
     display: flex;
