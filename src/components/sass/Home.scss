@@ -46,7 +46,7 @@ span {
   padding-bottom: 1em;
   width: 80%;
 }
-.Bars {
+.bars {
   display: none;
 }
 .flex-container.show {
@@ -79,6 +79,7 @@ img {
     font-size: 22px;
     width: 20%;
     margin-left: auto;
+    display: block;
   }
   .line {
     display: flex;
