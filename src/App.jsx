@@ -9,7 +9,7 @@ import Mars from './routes/Mars'
 import Moon from "./routes/Moon"
 import Europa from './routes/Europa'
 import Titan from './routes/Titan'
-
+import Mark from './routes/Mark'
 
 function App() {
     return (
@@ -25,6 +25,7 @@ function App() {
                 <Route path='/mars' element={<Mars />} />
                 <Route path='/europa' element={<Europa />}> </Route>
                 <Route path='/titan' element={<Titan />} />
+                <Route path='/mark' element={<Mark />} />
             </Routes>
         </AuthContext.Provider>
     )

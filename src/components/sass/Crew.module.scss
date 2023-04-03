@@ -4,6 +4,7 @@ body {
 .crew-home {
   background-image: url("../assets/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .crew-home-page {
   display: flex;
@@ -11,6 +12,9 @@ body {
 }
 .bars {
   display: none;
+}
+.first-flex-containers {
+  margin: 0 30px;
 }
 .first-flex-containers h1 {
   font-family: "Barlow Condensed";
@@ -25,9 +29,6 @@ body {
 .button-navigator button {
   width: 12px;
   height: 12px;
-  background: #ffffff;
-  mix-blend-mode: normal;
-  opacity: 0.17;
 }
 img {
   max-width: 80%;
@@ -48,13 +49,13 @@ img {
   font-family: "Bellefair";
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 64px;
   text-transform: uppercase;
   color: #ffffff;
 }
 .first-flex-containers h5 {
-  max-width: 500px;
+  max-width: 400px;
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -69,33 +70,22 @@ button .colored {
   background: white;
 }
 .button-navigator button {
-  margin-right: 0.5em;
+  margin-right: 0.1em;
   margin-top: 2em;
+  margin-bottom: 3em;
 }
-
-@media (max-width: 375px) {
-  .crew-home {
-    background-image: url("../assets/crew/background-crew-mobile.jpg");
-  }
-  .crew-home-page {
-    flex-direction: column;
-  }
-  .first-flex-containers h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 0.4em;
-    text-align: center;
-  }
-  .button-navigator {
-    width: 30%;
-    margin: 0 auto;
-  }
+.img-flex {
+  width: 60%;
 }
-
-@media (min-width: 376px) and (max-width: 700px) {
+img {
+  display: block;
+  margin-top: 3em;
+  margin: 0 auto;
+}
+.color {
+  background-color: black;
+}
+@media (max-width: 700px) {
   .crew-home {
     background-image: url("../assets/crew/background-crew-tablet.jpg");
     background-repeat: no-repeat;
@@ -117,5 +107,9 @@ button .colored {
   .button-navigator {
     width: 30%;
     margin: 0 auto;
+  }
+  .second-flex-container {
+    margin-top: 10em;
+    display: flex;
   }
 }
