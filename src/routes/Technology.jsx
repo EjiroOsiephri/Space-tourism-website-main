@@ -13,7 +13,7 @@ const Technology = () => {
                 <div className={Styled.container}>
                     <div className={Styled["first-div-container"]}>
                         <div className={Styled["button-container"]}>
-                            <Link ><button>1</button></Link>
+                            <Link className='color'><button>1</button></Link>
                             <Link><button>2</button></Link>
                             <Link ><button>3</button></Link>
                         </div>
