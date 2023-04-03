@@ -79,6 +79,18 @@ button:hover {
   color: Marine-blue;
   font-weight: 800;
 }
+.img {
+  animation: myFirst 4.5s infinite linear;
+}
+
+@keyframes myFirst {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 
 @media (min-width: 670px) {
   .home {

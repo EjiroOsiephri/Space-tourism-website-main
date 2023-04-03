@@ -52,7 +52,7 @@ span {
 .flex-container.show {
   display: flex;
 }
-img {
+.img {
   animation: myFirst 4.5s infinite linear;
 }
 
@@ -64,7 +64,6 @@ img {
     transform: rotate(-360deg);
   }
 }
-
 @media (max-width: 670px) {
   .flex-container {
     background: none;

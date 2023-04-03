@@ -51,6 +51,18 @@ a {
   color: #d0d6f9;
   margin-bottom: 1em;
 }
+.img {
+  animation: myFirst 4.5s infinite linear;
+}
+
+@keyframes myFirst {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 .flex-container {
   margin-top: 4em;
   display: flex;
