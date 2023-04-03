@@ -12,6 +12,8 @@ import Titan from './routes/Titan'
 import Mark from './routes/Mark'
 import VictorPage from './routes/Victor'
 import AnsariPage from './routes/Ansari'
+import SpaceCapsules from './routes/SpaceCapsule'
+import SpacePorts from './routes/SpacePort'
 
 function App() {
     return (
@@ -30,6 +32,8 @@ function App() {
                 <Route path='/mark' element={<Mark />} />
                 <Route path='/victor' element={<VictorPage />} />
                 <Route path='/ansari' element={<AnsariPage />} />
+                <Route path='/spaceport' element={<SpacePorts />} />
+                <Route path='/spacecapsule' element={<SpaceCapsules />} />
             </Routes>
         </AuthContext.Provider>
     )

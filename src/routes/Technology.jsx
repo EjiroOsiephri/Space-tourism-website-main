@@ -14,8 +14,8 @@ const Technology = () => {
                     <div className={Styled["first-div-container"]}>
                         <div className={Styled["button-container"]}>
                             <Link className='color'><button>1</button></Link>
-                            <Link><button>2</button></Link>
-                            <Link ><button>3</button></Link>
+                            <Link to='/spaceport'><button>2</button></Link>
+                            <Link to='/spacecapsule' ><button>3</button></Link>
                         </div>
                     </div>
                     <div className={Styled["typo-Container"]}>
