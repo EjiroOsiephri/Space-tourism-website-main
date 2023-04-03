@@ -13,9 +13,9 @@ const SpaceCapsules = () => {
                 <div className={Styled.container}>
                     <div className={Styled["first-div-container"]}>
                         <div className={Styled["button-container"]}>
-                            <Link to='/technology' className='color'><button>1</button></Link>
-                            <Link to='/spaceport'><button>2</button></Link>
-                            <Link ><button>3</button></Link>
+                            <Link to='/technology'><button className={Styled['button']}>1</button></Link>
+                            <Link to='/spaceport'><button className={Styled['button']}>2</button></Link>
+                            <Link><button className={Styled['color button']}>3</button ></Link>
                         </div>
                     </div>
                     <div className={Styled["typo-Container"]}>

@@ -88,21 +88,22 @@
   object-fit: cover;
   object-position: center;
 }
-button {
+.button {
   background-color: transparent;
   border: 2px solid white;
 }
-button:hover {
+.button:hover {
   color: #0b0d17;
   font-weight: 700;
 }
-.button-container button .color {
+.color {
+  color: #0b0d17;
   background-color: white;
 }
 @media (max-width: 375px) {
   .enclosed {
     background-image: url("../assets/technology/background-technology-mobile.jpg");
-    height: 1120px;
+    height: 1150px;
     background-size: cover;
   }
   .allContainer {
@@ -132,7 +133,7 @@ button:hover {
 @media (min-width: 376px) and (max-width: 650px) {
   .enclosed {
     background-image: url("../assets/technology/background-technology-tablet.jpg");
-    height: 1150px;
+    height: 1200px;
     background-size: cover;
   }
   .allContainer {
