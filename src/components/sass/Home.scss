@@ -90,4 +90,16 @@ img {
     font-size: 24px;
     display: initial;
   }
+  .flex-container {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -3;
+    margin-left: -460%;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+  }
+  .flex-container.active {
+    margin-left: 0;
+  }
 }
