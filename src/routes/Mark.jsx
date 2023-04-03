@@ -17,8 +17,8 @@ const Mark = () => {
                     <div className={Styled["button-navigator"]}>
                         <Link to='/crew'><button></button></Link>
                         <Link><button className={Styled.color}></button></Link>
-                        <Link><button></button></Link>
-                        <Link><button></button></Link>
+                        <Link to="/victor"><button></button></Link>
+                        <Link to='/ansari'><button></button></Link>
                     </div>
 
                 </div>
