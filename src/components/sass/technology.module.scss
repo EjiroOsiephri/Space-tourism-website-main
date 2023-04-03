@@ -130,7 +130,7 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 650px) {
+@media (min-width: 376px) and (max-width: 670px) {
   .enclosed {
     background-image: url("../assets/technology/background-technology-tablet.jpg");
     height: 1200px;
@@ -151,5 +151,9 @@
     flex-direction: row;
     margin-bottom: 0.9em;
     justify-content: center;
+  }
+  .typo-Container h5 {
+    text-align: center;
+    max-width: 100%;
   }
 }
